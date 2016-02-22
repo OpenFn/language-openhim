@@ -1,7 +1,7 @@
 {
-  "name": "language-momconnect",
+  "name": "language-openhim",
   "version": "0.0.1",
-  "description": "MomConnect Language Pack for OpenFn",
+  "description": "openhim Language Pack for OpenFn",
   "main": "lib/index.js",
   "scripts": {
     "build": "make",

@@ -2,7 +2,7 @@ Language OpenHIM
 ==============
 
 Language Pack for building expressions and operations for working with
-the MomConnect API.
+the openhim API.
 
 [HL7 FHIR Standard](https://www.hl7.org/fhir/patient-example.json.html)
 -------------

@@ -4,7 +4,7 @@ import { resolve as resolveUrl } from 'url';
 
 /**
  * Execute a sequence of operations.
- * Wraps `language-common/execute`, and prepends initial state for MomConnect.
+ * Wraps `language-common/execute`, and prepends initial state for openhim.
  * @example
  * execute(
  *   create('foo'),

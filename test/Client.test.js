@@ -16,11 +16,11 @@ describe("Client", () => {
 
   describe("post", () => {
 
-    it("sends a payload to MomConnect", () => {
+    it("sends a payload to openhim", () => {
       let body = fixtures.event.requestBody;
       let username = 'admin';
       let password = 'district';
-      let url = 'https://momconnect.org/demo/api/HL7/FHIR';
+      let url = 'https://openhim.org/demo/api/HL7/FHIR';
 
       return post({ body, username, password, url }).then((result) => {
         expect(result.body).to.eql(fixtures.event.responseBody)

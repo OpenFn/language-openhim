@@ -54,7 +54,7 @@ describe("event", () => {
       configuration: {
         username: "hello",
         password: "there",
-        apiUrl: 'https://momconnect.org/demo'
+        apiUrl: 'https://openhim.org/demo'
       }
     };
 
