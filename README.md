@@ -1,4 +1,4 @@
-Language MomConnect
+Language OpenHIM
 ==============
 
 Language Pack for building expressions and operations for working with
