@@ -1,7 +1,7 @@
 {
   "source": "./src",
   "destination": "./docs",
-  "index": "./README.md",
+  "index": "./READ ME.md",
   "package": "./package.json",
   "plugins": [
     {"name": "esdoc-es7-plugin"}
