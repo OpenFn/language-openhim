@@ -27,25 +27,26 @@ export function execute(...operations) {
 }
 
 /**
- * Create a mom
+ * Create an encounter
  * @example
  * execute(
- *   mom(data)
+ *   encounter(data)
  * )(state)
  * @constructor
- * @param {object} momData - Payload data for the mom
+ * @param {object} encounterData - Payload data for the encounter
  * @returns {Operation}
  */
-export function mom(momData) {
+export function encounter(encounterData) {
 
   return state => {
-    const body = expandReferences(momData)(state);
+    const body = expandReferences(encounterData)(state);
 
     const { username, password, apiUrl } = state.configuration;
 
-    const url = resolveUrl(apiUrl + '/', 'api/HL7/FHIR')
+    const url = resolveUrl(apiUrl + '/', 'chw/encounter')
 
-    console.log("Posting mom:");
+    console.log("Posting encounter:");
+    console.log(body);
 
     return post({ username, password, body, url })
     .then((result) => {
