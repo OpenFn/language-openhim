@@ -8,8 +8,8 @@
     "test": "mocha --compilers js:babel-core/register",
     "test:watch": "mocha -w --compilers js:babel-core/register"
   },
-  "author": "Taylor Downs",
-  "license": "GNU GPL",
+  "author": "Open Function Group",
+  "license": "LGPLv3",
   "files": [
     "lib/"
   ],
