@@ -48,7 +48,7 @@ export function encounter(encounterData) {
     const url = resolveUrl(apiUrl + '/', 'chw/encounter')
 
     console.log("Posting encounter:");
-    console.log(body);
+    console.log(JSON.stringify(body, null, 2));
 
     return post({ username, password, body, url })
     .then((result) => {
