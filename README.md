@@ -168,6 +168,16 @@ Documentation
 
 [Docs](docs/index)
 
+Sample configuration
+-----------
+
+```json
+{
+  "apiUrl": "http://openhim.com/api",
+  "username": "admin@openhim",
+  "password": "supersecretopenhimpassword"
+}
+```
 
 Development
 -----------
