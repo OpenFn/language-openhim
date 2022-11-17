@@ -1,4 +1,9 @@
-Language OpenHIM
+# _⚠️ MOVED TO [OpenFn/adaptors](https://github.com/OpenFn/adaptors)! ⚠️_
+
+**N.B.: New versions are available at:
+https://github.com/OpenFn/adaptors/tree/main/packages/openhim**
+
+# Language <name> (Archived)
 ==============
 
 Language Pack for building expressions and operations for working with
